@@ -48,5 +48,11 @@ def help
    while input
    puts "Please enter a command:"
    new_command = gets.downcase.chomp
-   when inpu
+   if input = "play"
+     play(songs)
+   else if input = "help"
+     help
+   else if input = "list"
+     list(songs)
+     
 
