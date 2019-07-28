@@ -43,7 +43,8 @@ def help
    puts "Goodbye"
  end
  
-def run
+def run(songs)
+  
  
  
 
