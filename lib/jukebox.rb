@@ -56,7 +56,9 @@ def help
         play(songs)
         when "help"
           help
-          when ""
+          when "exit"
+            exit_jukebox
+            break
           
  
  
