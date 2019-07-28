@@ -58,8 +58,8 @@ def help
        exit_jukebox
      end
    end
-   else
-     help
+   help
+   end
    end
  end
 
