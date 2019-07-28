@@ -20,8 +20,8 @@ def help
    puts help
  end
  
- def list(song)
-   
+ def list(songs)
+   songs. do |song_name|
  end
 
 
