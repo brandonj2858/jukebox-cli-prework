@@ -48,5 +48,7 @@ def help
    if input = nil
      puts "Please enter a command:"
      new_command = gets.downcase.chomp
-     if new_command = 
+     if new_command = help
+       puts #{help}
+     else if new_command = 
 
