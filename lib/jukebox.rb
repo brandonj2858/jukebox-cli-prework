@@ -49,14 +49,14 @@ def help
     puts "Please enter a command"
     input = gets.downcase.chomp
     case input
-    when "list"
+    when 'list'
       list(songs)
-    when "play"
+    when 'play'
       list(songs)
       play(songs)
-    when "help"
+    when 'help'
       help
-    when "exit"
+    when 'exit'
       exit_jukebox
     end
   end
