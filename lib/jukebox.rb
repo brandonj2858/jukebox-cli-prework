@@ -52,8 +52,9 @@ def help
     when "list"
       list(songs)
       when "play"
+        list(songs)
         play(songs)
-        
+        when 
  
  
 
