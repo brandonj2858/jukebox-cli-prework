@@ -43,5 +43,5 @@ def help
    puts "Goodbye"
  end
  
- 
+ def run
 
