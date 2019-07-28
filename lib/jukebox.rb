@@ -48,5 +48,5 @@ def help
    while input
    puts "Please enter a command:"
    new_command = gets.downcase.chomp
-   when input = 
+   when input 
 
