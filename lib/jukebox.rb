@@ -57,6 +57,7 @@ def help
      else if new command = "exit"
        exit_jukebox
      end
+   end
    else
      help
    end
