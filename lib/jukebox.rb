@@ -43,8 +43,7 @@ def help
    puts "Goodbye"
  end
  
- def run
-# help
+def run
    input = ""
    while input
     puts "Please enter a command"
