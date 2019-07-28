@@ -48,5 +48,5 @@ def help
    if input = nil
      puts "Please enter a command:"
      new_command = gets.chomp
-   else ne
+     if new_command = 
 
