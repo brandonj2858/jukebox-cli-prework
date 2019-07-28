@@ -32,7 +32,7 @@ def help
    if songs.include?(song_to_play)
      puts "Playing #{song_to_play}"
    else
-     puts "Invalid input, plese try again"
+     puts "Invalid input, please try again"
    end
  end
 
