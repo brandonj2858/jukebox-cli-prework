@@ -47,6 +47,6 @@ def help
    input = nil
    if input = nil
      puts "Please enter a command:"
-     new_command = gets.chomp
+     new_command = gets.downcase.chomp
      if new_command = 
 
