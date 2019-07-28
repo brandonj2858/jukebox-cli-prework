@@ -31,8 +31,7 @@ def help
    song_to_play = gets.chomp
    if songs.include?(song_to_play)
      puts "Playing #{song_to_play}"
-   else if song_to_play.Class = Integer
-     puts "Playing #"
+   else if s
    else
      puts "Invalid input, please try again"
    end
