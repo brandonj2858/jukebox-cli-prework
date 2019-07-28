@@ -45,22 +45,6 @@ def help
  
  def run
    input = nil
-   if input = nil
-     puts "Please enter a command:"
-     new_command = gets.downcase.chomp
-     if new_command = "help"
-       help
-     else if new_command = "list"
-       list
-     else if new_command = "play"
-       play
-     else if new command = "exit"
-       exit_jukebox
-     end
-   end
-   help
-   end
- end
- end
- end
+   while input
+   
 
