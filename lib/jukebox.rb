@@ -21,7 +21,8 @@ def help
  end
  
  def list(songs)
-   songs. do |song_name|
+   songs.each_with_index do |song_name|
+     
  end
 
 
