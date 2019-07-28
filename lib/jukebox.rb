@@ -51,7 +51,9 @@ def help
     case input
     when "list"
       list(songs)
-      when ""
+      when "play"
+        play(songs)
+        
  
  
 
