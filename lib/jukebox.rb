@@ -56,6 +56,10 @@ def help
      list(songs)
    else if input = "exit"
      exit_jukebox
+   else
+     help
    end
+ end
+ 
    
 
