@@ -44,4 +44,7 @@ def help
  end
  
  def run
+   input = ""
+   while input
+   
 
