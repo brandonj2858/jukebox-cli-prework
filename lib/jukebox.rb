@@ -21,8 +21,8 @@ def help
  end
  
  def list(songs)
-   songs.each_with_index do |song_name|
-     puts 
+   songs.each_with_index do |song_name, i|
+     puts ${i + 1}
  end
 
 
