@@ -21,7 +21,7 @@ def help
  end
  
  def list(array)
-   return #{songs}
+   return #
  end
 
 
