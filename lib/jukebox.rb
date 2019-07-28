@@ -44,13 +44,7 @@ def help
  end
  
  def run
-   input = nil
-   while input 
-   puts "Please enter a command:"
-   input = gets.downcase.chomp
-   case input
-    when "list"
-     list(songs)
+   wh
  
  
 
