@@ -20,8 +20,8 @@ def help
    puts help
  end
  
- def list(array)
-   return #
+ def list(song)
+   
  end
 
 
