@@ -46,5 +46,7 @@ def help
  def run
    input = nil
    while input
-   puts 
+   puts "Please enter a command:"
+   new_command = gets.downcase.chomp
+   when input = 
 
