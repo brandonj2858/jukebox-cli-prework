@@ -49,7 +49,8 @@ def help
    puts "Please enter a command:"
    input = gets.downcase.chomp
    case input
-   when "help"
+   when "list"
+     list(songs)
  
  
 
