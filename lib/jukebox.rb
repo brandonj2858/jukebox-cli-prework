@@ -19,5 +19,8 @@ def help
    - exit : exits this program"
    puts help
  end
+ 
+ def list
+   
 
 
