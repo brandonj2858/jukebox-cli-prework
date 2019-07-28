@@ -54,7 +54,9 @@ def help
       when "play"
         list(songs)
         play(songs)
-        when "exit"
+        when "help"
+          help
+          when ""
           
  
  
