@@ -49,7 +49,13 @@ def help
      puts "Please enter a command:"
      new_command = gets.downcase.chomp
      if new_command = "help"
-       puts #{help}
+       help
      else if new_command = "list"
-       puts #{list}
+       list
+     else if new_command = "play"
+       play
+     else if new command = "exit"
+       exit_jukebox
+     end
+   else 
 
