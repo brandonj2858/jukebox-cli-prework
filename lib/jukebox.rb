@@ -45,7 +45,7 @@ def help
  
  def run
    input = nil
-   while input
+   while input 
    puts "Please enter a command:"
    
  
