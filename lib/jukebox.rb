@@ -62,5 +62,4 @@ def help
      help
    end
  end
- end
 
