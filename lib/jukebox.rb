@@ -44,7 +44,9 @@ def help
  end
  
  def run
-   input = ""
-   while input
-   
+   input = nil
+   if input = nil
+     puts "Please enter a command:"
+     new_command = gets.chomp
+   else ne
 
