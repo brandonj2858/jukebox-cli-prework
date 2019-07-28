@@ -51,19 +51,19 @@ def help
     case input
     when "list"
       list(songs)
-      when "play"
-        list(songs)
-        play(songs)
-        when "help"
-          help
-          when "exit"
-            exit_jukebox
-            break
-          else
-            help
-          end
-        end
+    when "play"
+      list(songs)
+      play(songs)
+    when "help"
+      help
+    when "exit"
+      exit_jukebox
+      break
+      else
+        help
       end
+    end
+  end
 
           
  
