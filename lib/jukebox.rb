@@ -45,9 +45,9 @@ def help
  
 def run
    input = ""
-   while input
-    puts "Please enter a command"
-    input = gets.downcase.chomp
+  while input
+    puts "Please enter a command:"
+    input = gets.downcase.strip
     case input
     when 'list'
       list(songs)
@@ -58,6 +58,9 @@ def run
       help
     when 'exit'
       exit_jukebox
+      break
+    else
+      help
     end
   end
 end
