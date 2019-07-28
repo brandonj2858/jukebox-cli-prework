@@ -22,7 +22,7 @@ def help
  
  def list(songs)
    songs.each_with_index do |song_name|
-     
+     puts 
  end
 
 
