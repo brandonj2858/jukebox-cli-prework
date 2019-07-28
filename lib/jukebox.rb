@@ -44,7 +44,7 @@ def help
  end
  
  def run
-  # help
+# help
    input = ""
    while input
     puts "Please enter a command"
