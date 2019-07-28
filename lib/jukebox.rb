@@ -20,7 +20,8 @@ def help
    puts help
  end
  
- def list
-   
+ def list(array)
+   return songs
+ end
 
 
